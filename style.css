@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 6rem;
+  background-color: rgb(215, 215, 255);
+}
+
+.general {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  background-color: white;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.container {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 50%;
+}
+.container .text-title {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container .button-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .button-item .fb-google {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+}
+.container .button-item .fb-google:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+.container .button-item .fb-google .icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.container .section-1 {
+  text-align: center;
+  font-size: 12px;
+}
+.container .form-item {
+  display: flex;
+  flex-direction: column;
+}
+.container .form-item .label {
+  display: flex;
+  flex-direction: column;
+}
+.container .form-item .label label {
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.container .form-item .label input {
+  padding: 0.5rem;
+  border: 1px solid #5137ee;
+  border-radius: 50px;
+}
+.container .forgot-password {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .forgot-password a {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+.container .button-login {
+  display: flex;
+  flex-direction: column;
+}
+.container .button-login .login {
+  padding: 0.5rem;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  background-color: #5137ee;
+}
+.container .button-login .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #5137ee;
+  border: 1px solid #5137ee;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 581.1px;
+}
+.section-2 .purple {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 30px 30px 0;
+}
+.section-2 .title {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #9082f3;
+  border-radius: 30px;
+  color: white;
+  position: absolute;
+  height: 530px;
+}
+.section-2 .content {
+  width: 100%;
+}
+.section-2 .welcome {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.section-2 .peace-img {
+  width: 40px;
+  height: 30px;
+}
+.section-2 .img-2 {
+  width: 60%;
+  position: absolute;
+  right: -30px;
+  bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  .container {
+    width: 95%;
+  }
+  .title {
+    position: relative;
+  }
+  .text-title {
+    text-align: center;
+  }
+  .section-2 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
