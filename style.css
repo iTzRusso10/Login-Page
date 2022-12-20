@@ -121,6 +121,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
+  position: relative;
+  background-image: url(sfondo-2.png);
+  object-fit: cover;
 }
 .section-2 .purple {
   width: 100%;
@@ -131,14 +134,37 @@ body {
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 70%;
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #9082f3;
   border-radius: 30px;
   color: white;
-  position: absolute;
+  position: relative;
   height: 530px;
+}
+.section-2 .title .arcobaleno-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: -35px;
+  bottom: 70px;
+}
+.section-2 .title .logo-100 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+.section-2 .title .developer-image {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 180px;
+  right: -90px;
 }
 .section-2 .content {
   width: 100%;
